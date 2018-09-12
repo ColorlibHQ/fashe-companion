@@ -1,0 +1,691 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Fashe Companion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-29 05:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: Elementor
+#: inc/elementor-widgets/elementor-widget.php:214
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Elementor 2: Required Elementor version
+#. 1: PHP 2: Required PHP version
+#: inc/elementor-widgets/elementor-widget.php:234
+#: inc/elementor-widgets/elementor-widget.php:252
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:85
+msgid "About BlockQuote Content"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:68
+msgid "About Content"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:32
+msgid "About Us"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:177
+msgid "Background Image"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:32
+msgid "Banner Countdown"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:32
+msgid "Banner Video"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:51
+msgid "Banner Video Section Content"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:51
+msgid "Blgo"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:99
+msgid "Blockquote Bottom Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:155
+msgid "Blockquote Bottom Title Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:32
+msgid "Blog"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:102
+msgid "Blog Text Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:81
+msgid "Blog Title Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:92
+msgid "Blog Title Hover Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:165
+#: inc/elementor-widgets/widgets/fashe-shipping.php:154
+msgid "Border Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:114
+msgid "Button Animation"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:230
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:352
+#: inc/elementor-widgets/widgets/fashe-slider.php:227
+msgid "Button background Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:153
+msgid "Button background color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:240
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:362
+#: inc/elementor-widgets/widgets/fashe-slider.php:237
+msgid "Button Hover background Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:163
+msgid "Button Hover background color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:220
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:342
+#: inc/elementor-widgets/widgets/fashe-slider.php:217
+msgid "Button Hover Text Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:325
+msgid "Button Style"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:184
+#: inc/elementor-widgets/widgets/fashe-slider.php:101
+msgid "Button Text"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:210
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:332
+#: inc/elementor-widgets/widgets/fashe-slider.php:207
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:133
+msgid "Button text color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:143
+msgid "Button text hover color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:191
+#: inc/elementor-widgets/widgets/fashe-slider.php:108
+msgid "Button Url"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:74
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:100
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:126
+msgid "Category"
+msgstr ""
+
+#: inc/elementor-widgets/elementor-widget.php:103
+#: inc/elementor-widgets/elementor-widget.php:119
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Author of the plugin
+msgid "Colorlib"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:63
+msgid "Column 1"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:89
+msgid "Column 2"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:115
+msgid "Column 3"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:32
+msgid "Contact"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:52
+msgid "Contact Form"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:74
+#: inc/elementor-widgets/widgets/fashe-about.php:91
+msgid "Content"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:145
+msgid "Content Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:51
+msgid "Countdown Product Info"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:163
+msgid "Countdown Style"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:69
+msgid "Create Slider"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:221
+msgid "Date Box Border Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:199
+msgid "Date Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:210
+msgid "Date Text Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:86
+msgid "Days"
+msgstr ""
+
+#: inc/demo-data/demo-import.php:16
+msgid "Demo Preview Imgae"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:170
+msgid "Descriptions"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:307
+msgid "Descriptions Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:300
+msgid "Descriptions Style"
+msgstr ""
+
+#: inc/elementor-widgets/elementor-widget.php:216
+#: inc/elementor-widgets/elementor-widget.php:236
+msgid "Elementor"
+msgstr ""
+
+#: inc/elementor-widgets/elementor-widget.php:235
+#: inc/elementor-widgets/elementor-widget.php:253
+msgid "Fashe"
+msgstr ""
+
+#. Name of the plugin
+msgid "Fashe Companion"
+msgstr ""
+
+#. Description of the plugin
+msgid "Fashe Companion is a companion for Fashe theme."
+msgstr ""
+
+#: inc/elementor-widgets/elementor-widget.php:270
+msgid "Fashe Elements"
+msgstr ""
+
+#: inc/elementor-widgets/elementor-widget.php:215
+msgid "Fashe Theme"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:90
+#: inc/elementor-widgets/widgets/fashe-about.php:110
+msgid "Featured Image"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:32
+msgid "Featured Products"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:51
+msgid "Featured Products Settings"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-our-products.php:122
+msgid "Filter Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-our-products.php:132
+msgid "Filter Hover Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:67
+msgid "Form Shortcode"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:89
+msgid "From Customize"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:32
+msgid "Hero Section Slider"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:46
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:112
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:154
+msgid "Hide"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://colorlib.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://colorlib.com/wp/themes/fashe/"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:116
+msgid "Image"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-instagram.php:64
+msgid "Image Limit"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-instagram.php:72
+msgid "Image Widht"
+msgstr ""
+
+#: inc/demo-data/demo-import.php:60
+msgid "Import Demo Data"
+msgstr ""
+
+#: fashe-companion.php:69
+#, php-format
+msgid ""
+"In order to use the <strong>Fashe Companion</strong> plugin you have to also "
+"install the %1$sFashe Theme%2$s"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-instagram.php:32
+msgid "Instagram Section"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-instagram.php:52
+msgid "Instagram settings"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:82
+msgid "Latitude"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:143
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:136
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:73
+msgid "Link Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:263
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:120
+msgid "Link Title Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:273
+msgid "Link Title Hover Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:89
+msgid "Longitude"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:76
+msgid "Map"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:103
+msgid "Marker Icon Upload"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-contact.php:96
+msgid "Marker Text"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:79
+msgid "New Price"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:189
+msgid "New Price Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:73
+#: inc/elementor-widgets/widgets/fashe-shipping.php:99
+msgid "No"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:144
+msgid "Offer Box"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:72
+msgid "Old Price"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:179
+msgid "Old Price Color"
+msgstr ""
+
+#: inc/demo-data/demo-import.php:59
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-our-products.php:32
+#: inc/elementor-widgets/widgets/fashe-our-products.php:51
+msgid "Our Product"
+msgstr ""
+
+#: inc/elementor-widgets/elementor-widget.php:254
+msgid "PHP"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:64
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:64
+msgid "Post Limit"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:32
+msgid "Product Categories"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:51
+msgid "Product Category Content"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:103
+msgid "Product Collection Promo"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-our-products.php:57
+msgid "Product Limit"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:93
+msgid "Product Thumbnail"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:57
+msgid "Product Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:104
+msgid "Product title and price color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:115
+msgid "Product title hover color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:64
+msgid "Product Url"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:57
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:56
+#: inc/elementor-widgets/widgets/fashe-instagram.php:57
+#: inc/elementor-widgets/widgets/fashe-our-products.php:65
+msgid "Section Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:123
+msgid "Section Title Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:96
+msgid "Set Border"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:68
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:94
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:120
+msgid "Set Category"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:39
+msgid "Set Page Header"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:83
+msgid "Set Page Header Background"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:55
+msgid "Set page style"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:32
+msgid "Shipping Info Section"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:57
+msgid "Shipping Information"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:52
+msgid "Shipping Information Content"
+msgstr ""
+
+#: inc/fashe-meta/fashe-meta-config.php:45
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:111
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:153
+msgid "Show"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:109
+msgid "Show Collection Promo"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:151
+msgid "Show Offer Box"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:120
+msgid "Slider Background Image"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:51
+msgid "Slider content"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:57
+msgid "Slider Style"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:62
+msgid "Style 1"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:63
+msgid "Style 2"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:201
+msgid "Style Button"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:237
+msgid "Style Collection Text"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:129
+#: inc/elementor-widgets/widgets/fashe-contact.php:117
+msgid "Style Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-our-products.php:115
+msgid "Style Filter"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:261
+msgid "Style Offer Box"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:203
+msgid "Style Product Category Button"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:117
+msgid "Style Section"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:76
+#: inc/elementor-widgets/widgets/fashe-our-products.php:79
+msgid "Style Section Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:169
+msgid "Style Sub Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-blog.php:75
+msgid "Style Text Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:94
+#: inc/elementor-widgets/widgets/fashe-instagram.php:90
+msgid "Style Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:133
+msgid "Style Title "
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:88
+msgid "Sub Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:95
+msgid "Sub Title Animation"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:176
+msgid "Sub Title Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:116
+msgid "Text Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:152
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:52
+#: inc/elementor-widgets/widgets/fashe-about.php:58
+#: inc/elementor-widgets/widgets/fashe-contact.php:58
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:162
+#: inc/elementor-widgets/widgets/fashe-slider.php:75
+msgid "Title"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:120
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:57
+msgid "Title #1"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:243
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:100
+msgid "Title #1 Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:128
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:65
+msgid "Title #2"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:253
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:110
+msgid "Title #2 Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-slider.php:82
+msgid "Title Animation"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:70
+msgid "Title Botom Link"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:79
+msgid "Title Bottom"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:132
+msgid "Title Bottom Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:86
+msgid "Title Bottom Link"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-about.php:135
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:169
+#: inc/elementor-widgets/widgets/fashe-contact.php:123
+#: inc/elementor-widgets/widgets/fashe-feature-products.php:82
+#: inc/elementor-widgets/widgets/fashe-instagram.php:97
+#: inc/elementor-widgets/widgets/fashe-our-products.php:86
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:276
+#: inc/elementor-widgets/widgets/fashe-slider.php:139
+msgid "Title Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-product-categories.php:269
+msgid "Title Style"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:63
+msgid "Title Top"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:122
+msgid "Title Top Color"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-countdown.php:144
+msgid "Url"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-banner-video.php:82
+msgid "Video Url"
+msgstr ""
+
+#: inc/elementor-widgets/widgets/fashe-shipping.php:72
+#: inc/elementor-widgets/widgets/fashe-shipping.php:98
+msgid "Yes"
+msgstr ""
