@@ -4,7 +4,7 @@ if( !defined( 'WPINC' ) ){
 }
 /**
  * @Packge     : Fashe Companion
- * @Version    : 1.0
+ * @Version    : 1.2
  * @Author     : Colorlib
  * @Author URI : http://colorlib.com/wp/
  *

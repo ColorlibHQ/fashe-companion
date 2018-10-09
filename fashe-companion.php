@@ -3,7 +3,7 @@
  * Plugin Name:       Fashe Companion
  * Plugin URI:        https://colorlib.com/wp/themes/fashe/
  * Description:       Fashe Companion is a companion for Fashe theme.
- * Version:           1.1
+ * Version:           1.2
  * Author:            Colorlib
  * Author URI:        https://colorlib.com/
  * License:           GPL-2.0+
@@ -23,7 +23,7 @@ if( !defined( 'WPINC' ) ){
 
 // Define version constant
 if( !defined( 'FASHE_COMPANION_VERSION' ) ){
-    define( 'FASHE_COMPANION_VERSION', '1.0' );
+    define( 'FASHE_COMPANION_VERSION', '1.2' );
 }
 
 // Define dir path constant
