@@ -258,6 +258,7 @@ class Fashe_Slider extends Widget_Base {
 
     $settings = $this->get_settings();
 
+
     ?>
     <!-- Slide1 -->
     <section class="slide1">

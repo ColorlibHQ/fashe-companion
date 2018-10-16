@@ -4,14 +4,13 @@ if( !defined( 'WPINC' ) ){
 }
 /**
  * @Packge     : Fashe Companion
- * @Version    : 1.2
+ * @Version    : 1.0
  * @Author     : Colorlib
  * @Author URI : http://colorlib.com/wp/
  *
  */
 
 // Sidebar widgets include
-require_once FASHE_COMPANION_SW_DIR_PATH . 'about-widget.php';
 require_once FASHE_COMPANION_SW_DIR_PATH . 'newsletter-widget.php';
 
 // Include Files
