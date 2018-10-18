@@ -196,6 +196,7 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
             // Fashe Companion enqueue style and scripts
             add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_element_widgets_scripts' ] );
 
+
         }
 
         /**
@@ -272,6 +273,7 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
 
         }
 
+
         /**
          * Enqueue Widgets Scripts
          *
@@ -300,16 +302,13 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
             wp_enqueue_script( 'countdowntime', plugins_url( 'assets/js/countdowntime.js', __FILE__ ), array('jquery'), '1.0.0', true );
             // map custom js
             wp_register_script( 'fashe-map-custom', plugins_url( 'assets/js/map-custom.js', __FILE__ ), array('jquery'), '1.0', true );
-            // slick js
-            wp_enqueue_script( 'slick', plugins_url( 'assets/js/slick.min.js', __FILE__ ), array('jquery'), '1.0', true );
-            // slick custom js
-            wp_enqueue_script( 'fashe-slick-custom', plugins_url( 'assets/js/slick-custom.js', __FILE__ ), array('jquery'), '1.0', true );
 
             // fashe companion main js
             wp_enqueue_script( 'fashe-companion', plugins_url( 'assets/js/fashe-companion-main.js', __FILE__ ), array('jquery'), '1.0', true );
 
 
         }
+
 
         /**
          * Register Widget Scripts
@@ -319,7 +318,6 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
          * @access public
          */
         public function register_widget_scripts() {
-
 
         }
 
@@ -333,8 +331,9 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
         public function register_widget_styles() {
             // Typing Effect
             wp_enqueue_style( 'fashe-companion-elementor-edit', plugins_url( '/assets/css/elementor-edit.css', __FILE__ ) );
-        }
 
+
+        }
 
         /**
          * Register Admin Styles
@@ -344,6 +343,7 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
          * @access public
          */
         public function register_admin_styles() {
+
         }
 
         /**
@@ -357,6 +357,7 @@ if ( !class_exists( 'Fashe_El_Widgets' ) ) {
          * @access public
          */
         public function on_widgets_registered() {
+
             $this->include_widgets();
             $this->register_widgets();
         }

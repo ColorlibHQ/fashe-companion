@@ -18,3 +18,8 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 inc/.DS_Store
+.DS_Store
+inc/.DS_Store
+inc/elementor-widgets/.DS_Store
+inc/elementor-widgets/widgets/.DS_Store
+inc/elementor-widgets/assets/.DS_Store
