@@ -11,7 +11,6 @@ if( !defined( 'WPINC' ) ){
  */
 
 // Sidebar widgets include
-require_once FASHE_COMPANION_SW_DIR_PATH . 'about-widget.php';
 require_once FASHE_COMPANION_SW_DIR_PATH . 'newsletter-widget.php';
 
 // Include Files

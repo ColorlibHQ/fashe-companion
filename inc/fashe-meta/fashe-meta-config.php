@@ -41,9 +41,22 @@ if( !defined( 'WPINC' ) ){
             <?php 
             $val = get_post_meta( $object->ID ,'_fashe_page_header', true );
             ?>
-            <select name="pageheader" id="page_header_selectbox">
+            <select name="pageheader" class="fashe-admin-selectbox" id="page_header_selectbox">
                 <option value="show" <?php echo esc_attr( $val == 'show' ? 'selected' : '' ); ?>><?php esc_html_e( 'Show', 'fashe-companion' ); ?></option>
                 <option value="hide" <?php echo esc_attr( $val == 'hide' ? 'selected' : '' ); ?> ><?php esc_html_e( 'Hide', 'fashe-companion' ); ?></option>
+            </select>
+
+        </div>
+        <div class="page-opt-type">
+            <p class="post-attributes-label-wrapper">
+                <label for="pageheader-dropdown" class="post-attributes-label"><?php esc_html_e( 'Set Page Layout From', 'fashe-companion' ); ?></label>
+            </p>
+            <?php 
+            $val = get_post_meta( $object->ID ,'_fashe_page_layout_from', true );
+            ?>
+            <select name="pagelayout" class="fashe-admin-selectbox" id="page_header_layout">
+                <option value="customizer" <?php echo esc_attr( $val == 'customizer' ? 'selected' : '' ); ?>><?php esc_html_e( 'Customizer', 'fashe-companion' ); ?></option>
+                <option value="pagemeta" <?php echo esc_attr( $val == 'pagemeta' ? 'selected' : '' ); ?> ><?php esc_html_e( 'Page Meta', 'fashe-companion' ); ?></option>
             </select>
 
         </div>
@@ -85,7 +98,7 @@ if( !defined( 'WPINC' ) ){
             <?php 
             $val = get_post_meta( $object->ID ,'_fashe_header_bg', true );
             ?>
-            <select name="headerbg" id="page_header_selectbox">
+            <select name="headerbg" class="fashe-admin-selectbox" id="page_header_selectbox">
                 <option value="customize" <?php echo esc_attr( $val == 'customize' ? 'selected' : '' ); ?>><?php esc_html_e( 'From Customize', 'fashe-companion' ); ?></option>
                 <option value="featured" <?php echo esc_attr( $val == 'featured' ? 'selected' : '' ); ?> ><?php esc_html_e( 'Featured Image', 'fashe-companion' ); ?></option>
             </select>
@@ -111,18 +124,28 @@ if( !defined( 'WPINC' ) ){
 
         $meta_pageheader = "";
         $meta_pagestyle  = "";
+        $meta_pagelayout  = "customizer";
 
+        //
         if(isset($_POST["pageheader"]))
         {
             $meta_pageheader = $_POST["pageheader"];
         }   
-        update_post_meta($post_id, "_fashe_page_header", $meta_pageheader);
+        update_post_meta($post_id, "_fashe_page_header", sanitize_text_field( $meta_pageheader ) );
 
+        //
+        if(isset($_POST["pagelayout"]))
+        {
+            $meta_pagelayout = $_POST["pagelayout"];
+        }   
+        update_post_meta( $post_id, "_fashe_page_layout_from", sanitize_text_field( $meta_pagelayout ) );
+
+        //
         if(isset($_POST["pagestyle"]))
         {
             $meta_pagestyle = $_POST["pagestyle"];
         }   
-        update_post_meta($post_id, "_fashe_page_style", $meta_pagestyle);
+        update_post_meta($post_id, "_fashe_page_style", sanitize_text_field( $meta_pagestyle ) );
 
     }
 
@@ -131,7 +154,7 @@ if( !defined( 'WPINC' ) ){
     // Page header background settings save
     function fashe_save_page_page_headerbg_settings_meta( $post_id, $post, $update )
     {
-        if (!isset($_POST["fashe-headerbg-meta-nonce"]) || !wp_verify_nonce($_POST["fashe-headerbg-meta-nonce"], basename(__FILE__)))
+        if (!isset( $_POST["fashe-headerbg-meta-nonce"] ) || !wp_verify_nonce( $_POST["fashe-headerbg-meta-nonce"], basename(__FILE__)))
             return $post_id;
 
         if(!current_user_can("edit_post", $post_id))
@@ -150,7 +173,7 @@ if( !defined( 'WPINC' ) ){
         {
             $meta_headerbg = $_POST["headerbg"];
         }   
-        update_post_meta($post_id, "_fashe_header_bg", $meta_headerbg);
+        update_post_meta( $post_id, "_fashe_header_bg", sanitize_text_field( $meta_headerbg ) );
 
     }
 
