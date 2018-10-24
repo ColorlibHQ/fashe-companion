@@ -9,17 +9,23 @@
         $pageopt            = $( '.page-opt' );
 
     // Page Template Event
-    $template.on( 'change', function(){
-        var $this = $(this);
-        if( $this.val() == 'template-builder.php' ){
+    if( $template.length ){
+
+        $template.on( 'change', function(){
+            var $this = $(this);
+            if( $this.val() == 'template-builder.php' ){
+                $pagesettingsmeta.show();
+            }else{
+                $pagesettingsmeta.hide();
+            }
+
+        });
+        // if page template builder selected
+        if( $template.val() == 'template-builder.php' ){
             $pagesettingsmeta.show();
-        }else{
-            $pagesettingsmeta.hide();
         }
 
-    });
-    // if page template builder selected
-    if( $template.val() == 'template-builder.php' ){
+    }else{
         $pagesettingsmeta.show();
     }
 
@@ -33,10 +39,8 @@
         }
 
     });
+
     // if page layout selected
-
-
-
     if( $headerlayout.val() != 'pagemeta' ){
         $pageopt.hide();
     }
