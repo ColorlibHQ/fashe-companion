@@ -48,6 +48,7 @@ function fashe_after_import_setup() {
 	update_option( 'page_on_front', absint( $front_page_id->ID ) );
 	update_option( 'page_for_posts', absint( $blog_page_id->ID ) );
     update_option( 'woocommerce_shop_page_id', absint( $shop_page_id->ID ) );
+    update_option( 'fashe_demodata_import', 'yes' );
 
 }
 add_action( 'pt-ocdi/after_import', 'fashe_after_import_setup' );
