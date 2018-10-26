@@ -41,11 +41,14 @@ function fashe_after_import_setup() {
 
 	// Assign front page and posts page (blog page).
 	$front_page_id = get_page_by_title( 'Homepage v1' );
-	$blog_page_id  = get_page_by_title( 'Blog' );
+    $blog_page_id  = get_page_by_title( 'Blog' );
+	$shop_page_id  = get_page_by_title( 'Shop' );
 
 	update_option( 'show_on_front', 'page' );
-	update_option( 'page_on_front', $front_page_id->ID );
-	update_option( 'page_for_posts', $blog_page_id->ID );
+	update_option( 'page_on_front', absint( $front_page_id->ID ) );
+	update_option( 'page_for_posts', absint( $blog_page_id->ID ) );
+    update_option( 'woocommerce_shop_page_id', absint( $shop_page_id->ID ) );
+    update_option( 'fashe_demodata_import', 'yes' );
 
 }
 add_action( 'pt-ocdi/after_import', 'fashe_after_import_setup' );
@@ -60,6 +63,7 @@ function fashe_import_plugin_page_setup( $default_settings ) {
 	$default_settings['menu_title']  = esc_html__( 'Import Demo Data' , 'fashe-companion' );
 	$default_settings['capability']  = 'import';
 	$default_settings['menu_slug']   = 'fashe-demo-import';
+
 
 	return $default_settings;
 }
