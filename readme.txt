@@ -7,15 +7,15 @@ Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-DataRC Companion is a companion plugin for DataRC WordPress theme by Colorlib.com.
+Fashe Companion is a companion plugin for Fashe WordPress theme by Colorlib.com.
 
 == Description ==
 
-DataRC Companion is a companion for DataRC One Page WordPress theme by Colorlib.com. This plugin won't do anything for other free or premium WordPress themes and you need to download and install <a href="https://colorlib.com/wp/themes/DataRC/" target="_blank">DataRC</a>. If you are having problems with DataRC theme or its companion plugin the fastest way to receive help is via our theme <a href="https://colorlib.com/wp/forums" target="_blank">support forum</a>.
+Fashe Companion is a companion for Fashe One Page WordPress theme by Colorlib.com. This plugin won't do anything for other free or premium WordPress themes and you need to download and install <a href="https://colorlib.com/wp/themes/Fashe/" target="_blank">Fashe</a>. If you are having problems with Fashe theme or its companion plugin the fastest way to receive help is via our theme <a href="https://colorlib.com/wp/forums" target="_blank">support forum</a>.
 
 This plugin will add necessary WordPress options and allow to import demo content which will help you to with website setup.
 
-While DataRC is a great one page WordPress theme it might not be for everyone therefore you might want to check other free <a href="https://colorlib.com/wp/themes/" target="_blank">WordPress themes</a> that are created by Colorlib.
+While Fashe is a great one page WordPress theme it might not be for everyone therefore you might want to check other free <a href="https://colorlib.com/wp/themes/" target="_blank">WordPress themes</a> that are created by Colorlib.
 
 = Plugin Options =
 
@@ -36,7 +36,7 @@ If you are new to WordPress but are dedicated to <a href="https://colorlib.com/w
 
 This section describes how to install the plugin and get it working.
 
-1. Upload the whole contents of the folder `datarc-companion` to the `/wp-content/plugins/` directory
+1. Upload the whole contents of the folder `Fashe-companion` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress dashboard
 3. Enjoy using it :)
 
@@ -45,11 +45,11 @@ This section describes how to install the plugin and get it working.
 
 = What themes this plugin supports? =
 
-Currently it works only with DataRC theme.
+Currently it works only with Fashe theme.
 
 = Am I obligated to use it? =
 
-You can still use DataRC theme without this plugin but you won't be able to import demo content and use theme specific options that you see on front page of theme demo.
+You can still use Fashe theme without this plugin but you won't be able to import demo content and use theme specific options that you see on front page of theme demo.
 
 == Changelog ==
 
