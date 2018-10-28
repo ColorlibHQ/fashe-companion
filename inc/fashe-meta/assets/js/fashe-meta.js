@@ -8,26 +8,26 @@
         $headerlayout       = $('#page_header_layout'),
         $pageopt            = $( '.page-opt' );
 
+
+
     // Page Template Event
-    if( $template.length ){
 
-        $template.on( 'change', function(){
-            var $this = $(this);
-            if( $this.val() == 'template-builder.php' ){
-                $pagesettingsmeta.show();
-            }else{
-                $pagesettingsmeta.hide();
-            }
-
-        });
-        // if page template builder selected
-        if( $template.val() == 'template-builder.php' ){
+    $template.on( 'change', function(){
+        var $this = $(this);
+        if( $this.val() == 'template-builder.php' ){
             $pagesettingsmeta.show();
+        }else{
+            $pagesettingsmeta.hide();
         }
 
-    }else{
+    });
+    // if page template builder selected
+    if( $template.val() == 'template-builder.php' ){
         $pagesettingsmeta.show();
+    }else{
+        $pagesettingsmeta.hide();
     }
+
 
     // Page header layout Event
     $headerlayout.on( 'change', function(){
