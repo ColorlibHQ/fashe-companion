@@ -6,4 +6,10 @@
 }
 .ocdi__demo-import-notice img {
 	border: 4px solid #dbe3ea;
+    width: auto;
+}
+
+.about-wrap img {
+    max-width: 100%;
+    width: auto;
 }
